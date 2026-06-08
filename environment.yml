@@ -1,0 +1,26 @@
+name: urban-tree-thresholds
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - xarray
+  - rioxarray
+  - rasterio
+  - geopandas
+  - shapely
+  - dask
+  - netcdf4
+  - earthaccess
+  - earthengine-api
+  - geemap
+  - cdsapi
+  - scikit-learn
+  - statsmodels
+  - pwlf
+  - ruptures
+  - matplotlib
+  - seaborn
+  - contextily
+  - jupyterlab

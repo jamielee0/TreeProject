@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments
+.env
+.venv/
+env/
+venv/
+
+# Large or generated project data
+data/raw/**
+data/interim/**
+data/processed/**
+!data/raw/README.md
+!data/interim/README.md
+!data/processed/README.md
+
+# Generated visual outputs
+figures/**
+!figures/README.md
+
+# Local credentials and service tokens
+.env.*
+.netrc
+.cdsapirc
+earthengine-credentials.json
+.dodsrc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
