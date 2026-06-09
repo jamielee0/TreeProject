@@ -10,6 +10,7 @@ python scripts/download_ecostress_lst.py --dry-run
 python scripts/process_ecostress_lst.py --dry-run
 python scripts/download_ecostress_et.py --dry-run
 python scripts/download_ecostress_esi.py --dry-run
+python scripts/process_ecostress_et_esi.py --dry-run
 python scripts/download_sentinel2_indices.py --dry-run
 python scripts/create_reference_grid.py
 python scripts/download_landcover_layers.py --dry-run
@@ -25,6 +26,12 @@ Processed ECOSTRESS LST outputs are saved under:
 
 - `data/interim/ecostress_lst/` for the QC-filtered LST cube, count raster, mean QA raster, and QC summary
 - `figures/ecostress_lst_mean_visual_check.png` for a mean-LST visual QA map only
+
+Processed ECOSTRESS ET/ESI outputs are saved under:
+
+- `data/interim/ecostress_et/` for the QC-filtered ET cube, count raster, mean QA raster, and QC summary
+- `data/interim/ecostress_esi/` for the QC-filtered ESI/PET cube, count raster, mean QA raster, and QC summary
+- `data/interim/ecostress_overpass_pairings.csv` for ET/LST/ESI overpass-level links
 
 Sentinel-2 index composites are saved under:
 
